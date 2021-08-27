@@ -4,12 +4,11 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/LeonBeckerIsHere/ToDo/models"
 	"log"
 	"net/http"
 
-	"../models"
 	"github.com/gorilla/mux"
-
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

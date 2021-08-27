@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"./router"
+	"github.com/LeonBeckerIsHere/ToDo/router"
 )
 
 func main() {
